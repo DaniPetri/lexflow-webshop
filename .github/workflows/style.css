@@ -1,0 +1,85 @@
+/* Grundlayout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #1f2937;
+}
+
+/* Header */
+header {
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 1.5rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #14b8a6;
+    padding: 0.75rem;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+nav a:focus,
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hauptinhalt */
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #1f2937;
+}
+
+/* Buttons */
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #1f2937;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus,
+button:hover {
+    background-color: #374151;
+}
+
+/* Footer */
+footer {
+    background-color: #f3f4f6;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #1f2937;
+}
+
+a:focus {
+    outline: 3px solid #14b8a6;
+}
