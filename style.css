@@ -83,3 +83,41 @@ a {
 a:focus {
     outline: 3px solid #14b8a6;
 }
+
+/* Header Logo + Text nebeneinander */
+.site-header {
+    display: flex;
+    align-items: center; /* vertikal zentrieren */
+    gap: 15px; /* Abstand zwischen Logo und Text */
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 1.5rem;
+}
+
+.site-header .logo {
+    width: 60px; /* Logo-Größe */
+    height: auto;
+}
+
+.site-header .header-text h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.site-header .header-text p {
+    margin: 0.5rem 0 0;
+}
+
+/* Optional: Mobile Version */
+@media (max-width: 600px) {
+    .site-header {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .site-header .logo {
+        width: 50px;
+    }
+}
+
